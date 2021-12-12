@@ -37,20 +37,6 @@
         <source src = "song.mp3" type = "audio/mp3">
 
     </audio>
-    <script>
-        let song = document.getElementById("song");
-        let icon = document.getElementById("icon");
-
-        icon.onclick = function() {
-            if(song.paused){
-                song.play();
-                icon.src = "pause.png";
-            }
-            else if(!song.paused){
-                song.pause();
-                icon.src = "play.png";
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
