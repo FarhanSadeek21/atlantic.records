@@ -23,7 +23,7 @@
 
 .navbar ul li{
     text-decoration: none;
-    margin: 0px 15px;
+    margin: 0px 15%;
     display: inline-block;
 }
 
@@ -63,7 +63,7 @@
 .left-col h1{
     color: black;    
     font-size: 70px;
-    line-height: 100px;
+    line-height: 90%;
     float: left;
     font-family: 'Lato';
 }
